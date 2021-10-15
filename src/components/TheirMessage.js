@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function TheirMessage({lastMessage, message}) {
-    const isFirstMessageByUser = !lastMessage || lastMessage.sender.username !== MessageChannel.sender.username
+    const isFirstMessageByUser = !lastMessage || lastMessage.sender.username !== message.sender.username
 
     return (
         <div className="message-row">
@@ -22,7 +22,7 @@ export default function TheirMessage({lastMessage, message}) {
                 />
                 ):
                 ( 
-                    <div className="message" style={{float:'left', backgroundColor:'blue', marginLeft: isFirstMessageByUser ? '4px':'48px'}}>
+                    <div className="message" style={{float:'left', backgroundColor:'grey', marginLeft: isFirstMessageByUser ? '4px':'48px'}}>
             {message.text}
         </div>
                 )
