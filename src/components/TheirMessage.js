@@ -1,7 +1,6 @@
 import React from 'react'
 
-export default function ChatFeed(props) {
-    console.log(props)
+export default function TheirMessage() {
     return (
         <div>
             
