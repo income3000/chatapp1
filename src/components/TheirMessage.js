@@ -23,8 +23,8 @@ export default function TheirMessage({lastMessage, message}) {
                 ):
                 ( 
                     <div className="message" style={{float:'left', backgroundColor:'grey', marginLeft: isFirstMessageByUser ? '4px':'48px'}}>
-            {message.text}
-        </div>
+                         {message.text}
+                    </div>
                 )
             }
         </div>

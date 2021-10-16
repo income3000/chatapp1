@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {ChatEngine} from 'react-chat-engine';
 import ChatFeed from './components/ChatFeed';
