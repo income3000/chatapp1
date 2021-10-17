@@ -15,7 +15,7 @@ export default function MyMessage({message}) {
         )
     }
     return (
-        <div className="message" style={{float:'right', marginRight:'18px', color: 'white', backgroundColor:'grey' }}>
+        <div className="message" style={{float:'right', marginRight:'18px', color: 'white', backgroundColor:'light blue' }}>
             {message.text}
         </div>
     )

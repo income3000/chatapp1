@@ -41,7 +41,7 @@ export default function MessageForm(props) {
             <input 
                 type="file"
                 multiple={false}
-                id="upload=button"
+                id="upload-button"
                 style={{ display: 'none'}}
                 onChange={handleUpload}
             />

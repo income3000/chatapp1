@@ -22,8 +22,8 @@ export default function ChatFeed(props) {
                     }
 
                 </div>
-                <div className="read-receipts" style={{marginRight: isMyMessage ? '18px' : '0px', marginLeft: isMyMessage ? '18' : '0' }}>
-
+                <div className="read-receipts" style={{marginRight: isMyMessage ? '18px' : '0px', marginLeft: isMyMessage ? '0px' : '68px' }}>
+                    read-receipts
                 </div>
             </div>
            )
@@ -42,7 +42,7 @@ export default function ChatFeed(props) {
        { renderMessages()}
        <div style={{height: "100px"}} />
        <div className="message-form-container"> 
-       <MessageForm {...props} chatID={activeChat}/>
+       <MessageForm {...props} chatId={activeChat}/>
        </div>
         </div>
     )
