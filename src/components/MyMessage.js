@@ -10,12 +10,12 @@ export default function MyMessage({message}) {
                 src={ message.attachments[0].file}
                 alt="message-attachment"
                 className="message-image"
-                style={{float:'right'}}
+                style={{float:"right"}}
             />
         )
     }
     return (
-        <div className="message" style={{float:'right', marginRight:'18px', color: 'white', backgroundColor:'light blue' }}>
+        <div className="message" style={{float:"right", marginRight:'18px', color: 'white', backgroundColor:'red' }}>
             {message.text}
         </div>
     )
